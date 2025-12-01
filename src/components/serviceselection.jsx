@@ -57,7 +57,7 @@ const ServicesSection = () => {
             >
               <div className="mb-6">
                 <div className="mb-6">
-                  <div className="w-[100px] h-[100px] flex items-center justify-center p-4">
+                  <div className="w-[120px] h-[100px] flex items-center justify-center p-4">
                     <img
                       src={service.icon}
                       alt={service.title}

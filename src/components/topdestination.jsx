@@ -30,16 +30,12 @@ const TopDestinations = () => {
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <span className="inline-block px-4 py-1 bg-blue-100 text-blue-600 rounded-full text-sm font-semibold mb-4">
+          <span className="inline-block px-4 py-1 text-gray-500 rounded-full text-sm font-semibold mb-4">
             Top Selling
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-['Volkhov']">
             Top Destinations
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            Discover our most popular travel destinations loved by thousands of
-            travelers
-          </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
           {destinations.map((destination, index) => (

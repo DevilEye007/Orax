@@ -1,6 +1,11 @@
 import React from "react";
 import { MapPin, CreditCard, Calendar } from "lucide-react";
 import TRIP_IMAGE from "../assets/t.jpg";
+import { ImLeaf } from "react-icons/im";
+import { CiMap } from "react-icons/ci";
+import { IoIosSend } from "react-icons/io";
+import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
+import { FaRegHeart } from "react-icons/fa6";
 
 const EasyFastBooking = () => {
   const steps = [
@@ -87,57 +92,26 @@ const EasyFastBooking = () => {
                 </div>
                 <div className="flex space-x-4 mb-6">
                   <button className="p-2 rounded-full border border-gray-300 hover:bg-gray-50">
-                    <svg
-                      className="w-5 h-5 text-gray-600"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-                      />
-                    </svg>
+                    <ImLeaf className="w-5 h-5 text-gray-600" />
                   </button>
                   <button className="p-2 rounded-full border border-gray-300 hover:bg-gray-50">
-                    <svg
-                      className="w-5 h-5 text-gray-600"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"
-                      />
-                    </svg>
+                    <CiMap className="w-5 h-5 text-gray-600" />
                   </button>
                   <button className="p-2 rounded-full border border-gray-300 hover:bg-gray-50">
-                    <svg
-                      className="w-5 h-5 text-gray-600"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"
-                      />
-                    </svg>
+                    <IoIosSend className="w-5 h-5 text-gray-600" />
                   </button>
                 </div>
                 <div className="flex items-center justify-between mb-6">
                   <div className="flex items-center">
+                    <HiOutlineBuildingOffice2 className="w-5 h-5 text-gray-600" />
                     <span className="ml-3 text-gray-600 font-medium">
                       24 people going
                     </span>
                   </div>
+                  <div>
+                    <FaRegHeart className="w-6 h-6 text-[#4152CA]" />
+                  </div>
+
                 </div>
               </div>
             </div>

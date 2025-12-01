@@ -52,30 +52,30 @@ const HeroSection = () => {
                   <img
                     src={HERO_IMAGE}
                     alt="Travel destination"
+                    className="w-[700px] h-[550px] object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="absolute -left-[-80px] top-[50px] z-20">
+              <div className="text-center">
+                <div className="w-[120px] h-[120px] mb-2 mx-auto">
+                  <img
+                    src={PLANE_IMAGE}
+                    alt="Plane"
                     className="w-full h-full object-cover"
                   />
                 </div>
               </div>
             </div>
 
-            <div className="absolute -left-2 top-1/4 z-20">
+            <div className="absolute -right-[30px] bottom-[350px] p-3 z-[-1]">
               <div className="text-center">
                 <div className="w-[120px] h-[120px] mb-2 mx-auto">
                   <img
                     src={PLANE_IMAGE}
-                    alt="Tropical beach"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-            </div>
-
-            <div className="absolute -right-4 bottom-1/4 p-3 z-20">
-              <div className="text-center">
-                <div className="w-[120px] h-[120px] mb-2 mx-auto">
-                  <img
-                    src={PLANE_IMAGE}
-                    alt="Tropical beach"
+                    alt="Plane"
                     className="w-full h-full object-cover"
                   />
                 </div>
