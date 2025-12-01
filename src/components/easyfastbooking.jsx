@@ -82,7 +82,7 @@ const EasyFastBooking = () => {
                   <div className="flex items-center text-gray-600">
                     <span className="font-bold">14-29 June</span>
                     <span className="mx-2">|</span>
-                    <span className="font-bold">by Robbin jt</span>
+                    <span className="font-bold">by Robbin john</span>
                   </div>
                 </div>
                 <div className="flex space-x-4 mb-6">
