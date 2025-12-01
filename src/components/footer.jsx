@@ -5,7 +5,7 @@ import AppStore from "../assets/apple.png";
 
 const Footer = () => {
   return (
-    <footer className="py-20 px-4 lg:px-16 bg-white">
+    <footer className="py-20 mx-[150px] px-4 lg:px-16 bg-white">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between gap-16">
         <div className="w-full lg:w-1/4">
           <h2 className="text-4xl font-bold text-[#1a1a3d]">Jadoo.</h2>

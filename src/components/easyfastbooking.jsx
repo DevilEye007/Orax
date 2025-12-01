@@ -1,6 +1,7 @@
 import React from "react";
 import { MapPin, CreditCard, Calendar } from "lucide-react";
 import TRIP_IMAGE from "../assets/t.jpg";
+import Profile from '../assets/TD/03.avif';
 import { ImLeaf } from "react-icons/im";
 import { CiMap } from "react-icons/ci";
 import { IoIosSend } from "react-icons/io";
@@ -14,21 +15,21 @@ const EasyFastBooking = () => {
       title: "Choose Destination",
       description:
         "Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.",
-      bgColor: "bg-blue-600",
+      bgColor: "bg-[#F0BB1F]",
     },
     {
       icon: <CreditCard className="w-6 h-6 text-white" />,
       title: "Make Payment",
       description:
         "Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.",
-      bgColor: "bg-yellow-500",
+      bgColor: "bg-[#F15A2B]",
     },
     {
       icon: <Calendar className="w-6 h-6 text-white" />,
       title: "Reach Airport on Selected Date",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.",
-      bgColor: "bg-pink-500",
+      bgColor: "bg-[#006380]",
     },
   ];
 
@@ -120,7 +121,7 @@ const EasyFastBooking = () => {
                 <div className="flex justify-between mb-2">
                   <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3 overflow-hidden">
                     <img
-                      src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                      src={Profile}
                       alt="Rome"
                       className="w-full h-full object-cover"
                     />
