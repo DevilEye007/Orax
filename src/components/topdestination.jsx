@@ -1,26 +1,25 @@
 import React from "react";
 import { IoIosSend } from "react-icons/io";
-import D1 from "../assets/DES/d1.png";
+import D1 from '../assets/TD/01.avif';
+import D2 from '../assets/TD/02.avif';
+import D3 from '../assets/TD/03.avif';
 
 const TopDestinations = () => {
   const destinations = [
     {
-      image:
-        "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      image: D1,
       city: "Rome, Italy",
       price: "$5.42k",
       duration: "10 Days Trip",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      image: D2,
       city: "London, UK",
       price: "$4.2k",
       duration: "12 Days Trip",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      image: D3,
       city: "Full Europe",
       price: "$15k",
       duration: "28 Days Trip",

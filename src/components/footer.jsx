@@ -25,7 +25,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h3 className="text-lg font-semibold text-black mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-600 text-sm">
@@ -35,7 +34,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* More */}
           <div>
             <h3 className="text-lg font-semibold text-black mb-4">More</h3>
             <ul className="space-y-2 text-gray-600 text-sm">
